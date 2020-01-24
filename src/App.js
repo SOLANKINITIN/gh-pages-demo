@@ -10,9 +10,9 @@ const styles = {
     animation: 'x 1s infinite',
     animationName: Radium.keyframes(bounce, 'bounce'),
     position: 'absolute',
-    height: '340px',
-    left: '33vw',
-    top: '32vh',
+    height: '45vh',
+    left: '34vw',
+    top: '29.5vh',
     borderRadius: '100%',
   }
 }
