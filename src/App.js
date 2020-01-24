@@ -1,7 +1,7 @@
 import React from 'react';
 import { bounce } from 'react-animations';
 import Garmi from './img/maxresdefault.jpg'
-import God from './img/main god.jpg'
+import God from './img/WhatsApp_Image_2020-01-23_at_9-removebg-preview (1).png'
 import './App.css';
 import Radium, {StyleRoot} from 'radium';
 
@@ -10,12 +10,15 @@ const styles = {
     animation: 'x 1s infinite',
     animationName: Radium.keyframes(bounce, 'bounce'),
     position: 'absolute',
-    left: '32vw',
+    height: '340px',
+    left: '33vw',
     top: '32vh',
     borderRadius: '100%',
   }
 }
 function App() {
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -23,17 +26,6 @@ function App() {
        <img className='nora' src={Garmi}  alt="logo" /> 
        <img style={styles.bounce} src={God}  alt="logo" /> 
        </StyleRoot>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
